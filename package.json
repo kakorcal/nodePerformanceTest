@@ -1,0 +1,24 @@
+{
+  "name": "node-performance-test",
+  "version": "1.0.0",
+  "description": "Module wrapper for logging performance of a function",
+  "main": "./lib/npt.js",
+  "scripts": {
+    "test": "mocha ./test/npt.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kakorcal/nodePerformanceTest.git"
+  },
+  "keywords": [],
+  "author": "Kenneth Korcal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kakorcal/nodePerformanceTest/issues"
+  },
+  "homepage": "https://github.com/kakorcal/nodePerformanceTest#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  }
+}
